@@ -65,6 +65,7 @@ public class Stack
         stack.push(60); // This should print "Stack is full. Cannot push 60"
 
         System.out.println("Element on top of the stack: " + stack.peek());
+        System.out.println("Current stack size: " + stack.size());
 
         System.out.println("Popped elements:");
         while (!stack.isEmpty()) {
@@ -72,6 +73,8 @@ public class Stack
         }
 
         stack.pop(); // This should print "Stack is empty. Cannot pop"
+
+
     }
 }
 
